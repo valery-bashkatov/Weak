@@ -13,17 +13,21 @@ import Foundation
  */
 public struct Weak<T: AnyObject> {
     
+    // MARK: - Properties
+    
     /// A weak reference to the wrapped object.
     private(set) public weak var value: T?
+    
+    // MARK: - Initialization
     
     /**
      Creates a wrapper for the weak reference to an object.
      
      - parameter value: The object to be wrapped.
      
-     - returns: The `Weak` instance.
+     - returns: The wrapper instance.
      */
-    init(value: T?) {
+    public init(value: T?) {
         self.value = value
     }
 }
