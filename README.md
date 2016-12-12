@@ -1,5 +1,5 @@
 # Weak
-The `Weak` struct provides a wrapper for the weak reference to an object.
+A wrapper for the weak reference to an object.
 
 ## Requirements
 - iOS 9.0+
