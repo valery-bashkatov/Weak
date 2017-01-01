@@ -24,6 +24,4 @@ import Weak
 
 var object = NSObject()
 var weakObject = Weak(value: object)
-
-print(weakObject.value)
 ```
